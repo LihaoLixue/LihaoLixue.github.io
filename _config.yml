@@ -1,22 +1,22 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: LiHao Blog
+SEOTitle: 李浩的博客 | LiHao Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+email: ahlihaox@gmail.com
+description: "关于数学与程序与设 | 李浩，Bigdata & algorithm，Software Engineer，UX Designer | 这里是 @LiHao李浩的个人博客，与你一起发现更大的世界。"
+keyword: "李浩, LiHao李浩, 大数据，算法"
+# url: "https://lihao.me"              # your host, for absolute URL
+# baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+#weibo_username:     lihao
+zhihu_username:     lixue
+github_username:    LihaoLixue
+#twitter_username:   lihao 
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -49,17 +49,17 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+  # syntax_highlighter_opts:
+  #   span:
+  #     line_numbers: false
+  #   block:
+  #     line_numbers: true
+  #     start_line: 1
 
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: lihao
 
 # Netease settings
 netease_comment: false
@@ -72,7 +72,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: lihao.me
 
 
 
@@ -93,10 +93,22 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
+comments:
+  disqus: false
+  disqus_url: 'https://LihaoLixue.github.io/embed.js'
+  gitalk: true
+  gitalk_clientID: '115b1e2c44ec6616cf61'
+  gitalk_Secret: '3ebd59976882e307fc2c1137deb30dcee67ef9c4'
+  gitalk_repo: 'LihaoLixue.github.io'
+  gitalk_owner: 'LihaoLixue'
+  gitalk_admin: 'LihaoLixue'
+  distractionFreeMode: true
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
+
+mathjax: true
+
 
 
 
@@ -106,9 +118,9 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
+    #     title: "乱序",
+    #     href: "http://mida.re/"
+    # },{
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
     },{
