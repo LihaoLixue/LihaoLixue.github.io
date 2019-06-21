@@ -99,29 +99,160 @@ $$
 
 ###### 习题一
 1.决策树算法example one
+<html>
 
-ID | sex(A)| car type(B)| 衬衣size(C)| class
----|---|---|---|---
-1 | male|家用|小|A
-2 |male |运动|中|A
- 3|male |运动|中|A
-4 |male |运动|大|A
-5 |male |运动|加大|A
-6 |male |运动|加大|A
- 7|female|运动|小|A
- 8|female|运动|小|A
- 9|female|运动|中|A
- 10|female|豪华|大|A
- 11|male |家用|大|B
- 12|male |家用|加大|B
- 13|male |家用|中|B 
- 14|male |豪华|加大|B
- 15|female |豪华|小|B
- 16|female |豪华|小|B
- 17|female |豪华|中|B
- 18|female |豪华|中|B
-19 |female |豪华|中|B
- 20|female |豪华|大|B
+<table>
+<tr>
+<td>ID </td>
+<td> sex(A)</td>
+<td> car type(B)</td>
+<td> 衬衣size(C)</td>
+<td> class</td>
+</tr>
+<tr>
+<td>1 </td>
+<td> male</td>
+<td>家用</td>
+<td>小</td>
+<td>A</td>
+</tr>
+<tr>
+<td>2 </td>
+<td>male </td>
+<td>运动</td>
+<td>中</td>
+<td>A</td>
+</tr>
+<tr>
+<td> 3</td>
+<td>male </td>
+<td>运动</td>
+<td>中</td>
+<td>A</td>
+</tr>
+<tr>
+<td>4 </td>
+<td>male </td>
+<td>运动</td>
+<td>大</td>
+<td>A</td>
+</tr>
+<tr>
+<td>5 </td>
+<td>male </td>
+<td>运动</td>
+<td>加大</td>
+<td>A</td>
+</tr>
+<tr>
+<td>6 </td>
+<td>male </td>
+<td>运动</td>
+<td>加大</td>
+<td>A</td>
+</tr>
+<tr>
+<td> 7</td>
+<td>female</td>
+<td>运动</td>
+<td>小</td>
+<td>A</td>
+</tr>
+<tr>
+<td> 8</td>
+<td>female</td>
+<td>运动</td>
+<td>小</td>
+<td>A</td>
+</tr>
+<tr>
+<td> 9</td>
+<td>female</td>
+<td>运动</td>
+<td>中</td>
+<td>A</td>
+</tr>
+<tr>
+<td> 10</td>
+<td>female</td>
+<td>豪华</td>
+<td>大</td>
+<td>A</td>
+</tr>
+<tr>
+<td> 11</td>
+<td>male </td>
+<td>家用</td>
+<td>大</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 12</td>
+<td>male </td>
+<td>家用</td>
+<td>加大</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 13</td>
+<td>male </td>
+<td>家用</td>
+<td>中</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 14</td>
+<td>male </td>
+<td>豪华</td>
+<td>加大</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 15</td>
+<td>female </td>
+<td>豪华</td>
+<td>小</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 16</td>
+<td>female </td>
+<td>豪华</td>
+<td>小</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 17</td>
+<td>female </td>
+<td>豪华</td>
+<td>中</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 18</td>
+<td>female </td>
+<td>豪华</td>
+<td>中</td>
+<td>B</td>
+</tr>
+<tr>
+<td>19 </td>
+<td>female </td>
+<td>豪华</td>
+<td>中</td>
+<td>B</td>
+</tr>
+<tr>
+<td> 20</td>
+<td>female </td>
+<td>豪华</td>
+<td>大</td>
+<td>B</td>
+</tr>
+</table>
+
+</html>
+
  **问题**
 
 1.计算信息熵及信息熵增益？
@@ -238,6 +369,7 @@ $$
 </table>
 </html>
 <html>
+
   <table>
 <tr>
     <td>class</td>
@@ -277,19 +409,68 @@ $$
 ```
 ###### 习题二 二分类问题数据集
 
-A | B|类标号  
----|---|---
-T|F|+
-T|T|+
-T|T|+
-T|F|-
-T|T|+
-F|F|-
-F|F|-
-F|F|-
-T|T|-
-T|F|-
 <html>
+<table>
+<tr>
+<td>A </td>
+<td> B</td>
+<td>类标号  </td>
+</tr>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>+</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>+</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>+</td>
+</tr>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>-</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>+</td>
+</tr>
+<tr>
+<td>F</td>
+<td>F</td>
+<td>-</td>
+</tr>
+<tr>
+<td>F</td>
+<td>F</td>
+<td>-</td>
+</tr>
+<tr>
+<td>F</td>
+<td>F</td>
+<td>-</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>-</td>
+</tr>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>-</td>
+</tr>
+</table>
+</html>
+
+<html>
+
   <table>
 <tr>
     <th colspan="3">统计A</th>
@@ -382,18 +563,88 @@ Gini系数是一种与信息熵类似的做特征选择的方式，用来数据�
 ###### 习题三：满意度数据描述
 &emsp;利用满意度调查数据来描述决策树算法。假如天热气不能用了，相关部门维修后，需要对这次修理障碍过程进行回访，然后给出相应评价，满意或者不满意。根据历史数据可以建立满意度预警模型，建模的目的：预测哪些用户会给出不满意的评价。目标变量为二分类变量：满意（记为0）和不满意（记为1）。自变量为障碍类型、障碍原因、修障总时长、最近一个月发生故障的次数、最近一个月不满意次数。简单的数据如下：
 
-客户ID | 故障原因(A) |故障类型(B) |修障时长(C)|满意度
----|---|--|--|--|--
-001 | 1|5|10.2|1
-002 | 1|5|12|0
-003 | 1|5|14|1
-004 | 2|5|16|0
-005 | 2|5|18|1
-006 | 2|6|20|0
-007 | 3|6|22|1
-008 | 3|6|23|0
-009 | 3|6|24|1
-010 | 3|6|25|0
+<html>
+
+<table>
+<tr>
+<td>客户ID </td>
+<td> 故障原因(A) </td>
+<td>故障类型(B) </td>
+<td>修障时长(C)</td>
+<td>满意度</td>
+</tr>
+<tr>
+<td>001 </td>
+<td> 1</td>
+<td>5</td>
+<td>10.2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>002 </td>
+<td> 1</td>
+<td>5</td>
+<td>12</td>
+<td>0</td>
+</tr>
+<tr>
+<td>003 </td>
+<td> 1</td>
+<td>5</td>
+<td>14</td>
+<td>1</td>
+</tr>
+<tr>
+<td>004 </td>
+<td> 2</td>
+<td>5</td>
+<td>16</td>
+<td>0</td>
+</tr>
+<tr>
+<td>005 </td>
+<td> 2</td>
+<td>5</td>
+<td>18</td>
+<td>1</td>
+</tr>
+<tr>
+<td>006 </td>
+<td> 2</td>
+<td>6</td>
+<td>20</td>
+<td>0</td>
+</tr>
+<tr>
+<td>007 </td>
+<td> 3</td>
+<td>6</td>
+<td>22</td>
+<td>1</td>
+</tr>
+<tr>
+<td>008 </td>
+<td> 3</td>
+<td>6</td>
+<td>23</td>
+<td>0</td>
+</tr>
+<tr>
+<td>009 </td>
+<td> 3</td>
+<td>6</td>
+<td>24</td>
+<td>1</td>
+</tr>
+<tr>
+<td>010 </td>
+<td> 3</td>
+<td>6</td>
+<td>25</td>
+<td>0</td>
+</tr>
+</table>
+</html>
 
 其中故障原因和故障类型为离散型变量，分别为原因ID和类型ID。修障时长为连续型变量，单位为小时。满意度中1为不满意、0为满意。
 
